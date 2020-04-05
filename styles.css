@@ -1,0 +1,110 @@
+/************ Utility Styles **************/
+ 
+.green {background:#66bc29;}
+.blue {background:#6cd4e1;}
+.purple {background:#e62899;}
+.yellow {background:#ffd000;}
+.red {background:#e30045;}
+.black {background:black;}
+.charcoal {background:#292929;}
+.grey {background:#F7EDF1;}
+.white {background:white;}
+.height {height:100%;}
+
+
+body {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.zipper {
+	border:1px solid black;
+	position:relative;
+	background:#D2D2D2;
+}
+
+.zipper.wrap{
+	border:none;
+	margin: 50px;
+	background:none;
+	height: 180px;
+	width: 80px;
+
+}
+
+.zipper.back {
+	width: 80px;
+	height: 50px;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	z-index: 1;
+}
+
+.zipper.body {
+	background: grey;
+	height: 40px;
+	width: 40px;
+	position: relative;
+	left: 20px;
+	top: -5px;
+}
+
+.zipper.front {
+
+}
+
+.zipper.cuff {
+	height: 80px;
+	width: 30px;
+	border-radius: 5px;
+	top: -95px;
+	z-index: 2;
+	left: 25px;
+}
+
+.zipper.pull {
+	height: 120px;
+	width: 60px;
+	top: -110px;
+	left: 10px;
+	border-radius: 10px;
+}
+
+.grip {
+	border-left: none;
+	border-right: none;
+	border-top: 1px solid black;
+	border-bottom: 1px solid #eee;
+	top: 5px;
+	height: 20px;
+	margin: 10px;
+}
+
+.inner-fill {
+	height: 100%;
+	width: 100%;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid black;
+}
+
+.bottom-hole {
+	border-radius: 10px;
+	height: 50px;
+	width: 44px;
+	left: 7.5px;
+	top: 5px;
+	background: white;
+}
+
+.top-hole {
+	top: 0px;
+	left: 4.5px;
+	height: 20px;
+	width: 50px;
+	border-radius: 10px;
+	background: white;
+}
